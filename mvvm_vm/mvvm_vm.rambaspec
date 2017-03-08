@@ -1,22 +1,16 @@
 # Template information section
-name: "mvvm_v"
-summary: "MVVM module template for UIView as View."
+name: "mvvm_vm"
+summary: "MVVM module. View Model part."
 author: "Dmitry Purtov"
 version: "1.0"
 license: "MIT"
 
 # Declarations for code files
 code_files:
-# View
-- {name: View.h, path: Code/View.h.liquid}
-- {name: View.m, path: Code/View.m.liquid}
-- {name: View.xib, path: Code/View.xib.liquid}
-
-# ViewModel
 - {name: ViewModel.h, path: Code/ViewModel.h.liquid}
 - {name: ViewModel.m, path: Code/ViewModel.m.liquid}
 - {name: ViewModelType.h, path: Code/ViewModelType.h.liquid}
 
 # Template dependencies
 dependencies:
-#- Typhoon
+- ReactiveObjC
