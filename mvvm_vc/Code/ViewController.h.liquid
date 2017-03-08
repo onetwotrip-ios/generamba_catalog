@@ -6,15 +6,15 @@
 //  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
 //
 
-#import "{{ prefix }}View.h"
+#import "{{ prefix }}ViewController.h"
 
-#import "DPNibLoadable.h"
-
-NS_ASSUME_NONNULL_BEGIN
+#import "DPStoryboardLoadable.h"
 
 @protocol {{ prefix }}{{ module_info.name }}ViewModelType;
 
-@interface {{ prefix }}{{ module_info.name }}View : {{ prefix }}View <DPNibLoadable>
+NS_ASSUME_NONNULL_BEGIN
+
+@interface {{ prefix }}{{ module_info.name }}ViewController : {{ prefix }}ViewController <DPStoryboardLoadable>
 @property (nonatomic, strong) id<{{ prefix }}{{ module_info.name }}ViewModelType> viewModel;
 @end
 
