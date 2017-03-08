@@ -7,7 +7,6 @@ license: "MIT"
 
 # Declarations for code files
 code_files:
-# View
 - {name: View.h, path: Code/View.h.liquid}
 - {name: View.m, path: Code/View.m.liquid}
 - {name: View.xib, path: Code/View.xib.liquid}
