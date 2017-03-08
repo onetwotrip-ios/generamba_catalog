@@ -1,6 +1,6 @@
 # Template information section
 name: "mvvm_v"
-summary: "MVVM module. View part (VC)"
+summary: "MVVM module. View part (VC)."
 author: "Dmitry Purtov"
 version: "1.0"
 license: "MIT"
