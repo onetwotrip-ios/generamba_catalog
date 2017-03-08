@@ -13,4 +13,4 @@ code_files:
 
 # Template dependencies
 dependencies:
-#- ReactiveObjC
+- ReactiveObjC
