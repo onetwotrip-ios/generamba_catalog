@@ -1,3 +1,3 @@
-Templates for code generation
+Templates for code generation.
 
-(For more information see https://github.com/rambler-digital-solutions/Generamba)
+(For more information, visit https://github.com/rambler-digital-solutions/Generamba)
