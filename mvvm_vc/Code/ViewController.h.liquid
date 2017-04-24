@@ -7,15 +7,14 @@
 //
 
 #import "{{ prefix }}ViewController.h"
-
-#import "DPStoryboardLoadable.h"
+#import "OTTStoryboardLoadable.h"
 
 @protocol {{ prefix }}{{ module_info.name }}ViewModelType;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface {{ prefix }}{{ module_info.name }}ViewController : {{ prefix }}ViewController <DPStoryboardLoadable>
-@property (nonatomic, strong) id<{{ prefix }}{{ module_info.name }}ViewModelType> viewModel;
+@interface {{ prefix }}{{ module_info.name }}ViewController : {{ prefix }}ViewController <OTTStoryboardLoadable>
+@property (nonatomic) id<{{ prefix }}{{ module_info.name }}ViewModelType> viewModel;
 @end
 
 NS_ASSUME_NONNULL_END
